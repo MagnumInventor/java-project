@@ -7,61 +7,54 @@ import java.util.Scanner;
 
 public class Output {
     public static void main(String[] args) {
+        // Зчитуємо слова з обох файлів
         List<String> GerWordsList = readWordsFromFile("Gwords.txt");
-        List<String> EngWordsList = readWordsFromFile("Gwords.txt");
+        List<String> EngWordsList = readWordsFromFile("Ewords.txt");
 
+        // Перевіряємо, чи файли зчиталися коректно і мають однакову кількість слів
         if (GerWordsList.isEmpty() || EngWordsList.isEmpty() || GerWordsList.size() != EngWordsList.size()) {
-            System.out.println("File check wasn't passed");
+            System.out.println("Перевірка файлів не пройдена.");
             return;
         }
-    
 
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
+        Integer lastWordIndex = null;
 
-        System.out.println("Press Enter.");
+        System.out.println("Натисніть Enter, щоб вивести випадкове слово...");
 
-        // Поки список не порожній, виводимо рандомні слова
-        while (!wordsList.isEmpty()) {
+        while (true) {
             scanner.nextLine(); // Чекаємо, поки користувач натисне Enter
 
-            // Вибираємо випадковий індекс зі списку
-            int GerRandomIndex = random.nextInt(GerWordsList.size());
+            if (lastWordIndex == null) {
+                // Вибираємо випадковий індекс зі списку для німецького слова
+                lastWordIndex = random.nextInt(GerWordsList.size());
+                String gerWord = GerWordsList.get(lastWordIndex);
 
-            // Отримуємо слово за випадковим індексом
-            String GerRandomWord = GerWordsList.get(GerRandomIndex);
+                // Виводимо німецьке слово
+                System.out.println("Німецьке слово: " + gerWord);
+            } else {
+                // Виводимо переклад англійською для попереднього слова
+                String engWord = EngWordsList.get(lastWordIndex);
+                System.out.println("Переклад: " + engWord);
 
-            // Виводимо слово
-            System.out.println("Randoom word: " + GerRandomWord);
+                // Після виведення перекладу, видаляємо використані слова
+                GerWordsList.remove((int) lastWordIndex);
+                EngWordsList.remove((int) lastWordIndex);
 
-            // Видаляємо використане слово зі списку, щоб воно не повторювалось
-            wordsList.remove(randomIndex);
+                // Якщо всі слова вичерпано, завершуємо програму
+                if (GerWordsList.isEmpty()) {
+                    System.out.println("Усі слова виведені!");
+                    break;
+                }
+
+                // Скидаємо індекс для нового випадкового слова
+                lastWordIndex = null;
+            }
         }
 
-                while (!wordsList.isEmpty()) {
-            scanner.nextLine(); // Чекаємо, поки користувач натисне Enter
-
-            // Вибираємо випадковий індекс зі списку
-            int EngRandomIndex = random.nextInt(EngWordsList.size());
-
-            // Отримуємо слово за випадковим індексом
-            String randomWord = wordsList.get(randomIndex);
-
-            // Виводимо слово
-            System.out.println("Випадкове слово: " + randomWord);
-
-            // Видаляємо використане слово зі списку, щоб воно не повторювалось
-            wordsList.remove(randomIndex);
-        }
-
-        System.out.println("Усі слова виведені!");
         scanner.close();
     }
-
-
-
-
-
 
     // Метод для читання слів із файлу
     public static List<String> readWordsFromFile(String fileName) {
