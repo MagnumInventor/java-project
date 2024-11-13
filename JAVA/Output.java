@@ -10,27 +10,39 @@ public class Output {
         List<String> GerWordsList = readWordsFromFile("Gwords.txt");
         List<String> EngWordsList = readWordsFromFile("Gwords.txt");
 
-        if (GerWordsList.isEmpty()) {
-            System.out.println("First File is empty or program could not find it");
-            return;
-
-            if (EngWordsList.isEmpty()) {
-            System.out.println("Second File is empty or program could not find it");
+        if (GerWordsList.isEmpty() || EngWordsList.isEmpty() || GerWordsList.size() != EngWordsList.size()) {
+            System.out.println("File check wasn't passed");
             return;
         }
-    }
+    
 
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        System.out.println("Натисніть Enter, щоб вивести випадкове слово...");
+        System.out.println("Press Enter.");
 
         // Поки список не порожній, виводимо рандомні слова
         while (!wordsList.isEmpty()) {
             scanner.nextLine(); // Чекаємо, поки користувач натисне Enter
 
             // Вибираємо випадковий індекс зі списку
-            int randomIndex = random.nextInt(wordsList.size());
+            int GerRandomIndex = random.nextInt(GerWordsList.size());
+
+            // Отримуємо слово за випадковим індексом
+            String GerRandomWord = GerWordsList.get(GerRandomIndex);
+
+            // Виводимо слово
+            System.out.println("Randoom word: " + GerRandomWord);
+
+            // Видаляємо використане слово зі списку, щоб воно не повторювалось
+            wordsList.remove(randomIndex);
+        }
+
+                while (!wordsList.isEmpty()) {
+            scanner.nextLine(); // Чекаємо, поки користувач натисне Enter
+
+            // Вибираємо випадковий індекс зі списку
+            int EngRandomIndex = random.nextInt(EngWordsList.size());
 
             // Отримуємо слово за випадковим індексом
             String randomWord = wordsList.get(randomIndex);
