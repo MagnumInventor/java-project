@@ -46,6 +46,11 @@ public class Output {
         scanner.close();
     }
 
+
+
+
+
+
     // Метод для читання слів із файлу
     public static List<String> readWordsFromFile(String fileName) {
         List<String> words = new ArrayList<>();
