@@ -38,3 +38,43 @@ because
 than
 soo
 -
+        NOUN
+    PEOPLE
+women
+men
+boy
+grandpa
+grandma
+    CLOTHES
+    FOOD
+Lunch
+vegetables
+chiken
+sossage
+cheese
+    WEATHER
+sunny
+rainy
+snowing
+cloudy
+foggy
+windy
+    PLASES
+home
+work
+school
+university
+police-department
+pharmacy
+shop
+
+DIRECTION
+in-front-of
+behind
+on-the-left
+on-the-right
+above
+up
+up-side-down
+near
+far-away

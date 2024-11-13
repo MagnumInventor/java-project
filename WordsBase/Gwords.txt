@@ -38,3 +38,24 @@ well
 als
 so
 -
+        SUBSTANTIV
+    PEOPLE
+Frau
+Man
+Junge
+Oma
+Opa
+    KLIEDUNG
+    ESSEN
+Mittagessen
+Gemuse
+Hahnchen
+Wurst
+Kase
+    WETTER
+sonnig
+regnet
+scheit
+bewolkt
+reblig
+windig
