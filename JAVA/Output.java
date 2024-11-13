@@ -7,12 +7,18 @@ import java.util.Scanner;
 
 public class Output {
     public static void main(String[] args) {
-        List<String> wordsList = readWordsFromFile("words.txt");
+        List<String> GerWordsList = readWordsFromFile("Gwords.txt");
+        List<String> EngWordsList = readWordsFromFile("Gwords.txt");
 
-        if (wordsList.isEmpty()) {
-            System.out.println("Файл порожній або не вдалося його прочитати.");
+        if (GerWordsList.isEmpty()) {
+            System.out.println("First File is empty or program could not find it");
+            return;
+
+            if (EngWordsList.isEmpty()) {
+            System.out.println("Second File is empty or program could not find it");
             return;
         }
+    }
 
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
