@@ -70,10 +70,37 @@ Geschaft
 RICHTUNG
 Vorne-von-hinten
 Hinter
-auf der linken Seite
+auf-der-linken-Seite
 rechts
 über
+unter
 hoch
 verkehrt herum
 nahe
-weit weg
+weit-weg
+            ADJEKTIV
+    GEGENTAIL
+links
+rechts
+-
+neu
+alt
+-
+teuer
+billig
+-
+ziemlich
+laut
+-
+traurig
+fröhlich
+-
+langsam
+schnell
+-
+heiß
+kalt
+-
+schön
+hässlich
+-

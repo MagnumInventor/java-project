@@ -73,7 +73,34 @@ behind
 on-the-left
 on-the-right
 above
+under
 up
 up-side-down
 near
 far-away
+            ADJECTIVE
+    OPPOSITE
+left
+right
+-
+new
+old
+-
+expensive
+cheap
+-
+quite
+loud
+-
+sad
+happy
+-
+slow
+fast
+-
+hot
+cold 
+-
+beautiful
+ugly
+-
