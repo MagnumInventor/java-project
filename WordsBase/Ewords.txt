@@ -101,6 +101,33 @@ fast
 hot
 cold 
 -
+    HUMAN
+-
 beautiful
 ugly
 -
+sick
+healthy
+pretty
+glad
+-
+tall
+short
+    GENERAL
+bad
+good
+complicated
+simply
+hard
+easy
+very
+really
+exiting
+more
+too
+a-little
+a-bit 
+a-lot
+big
+small
+        VERBS

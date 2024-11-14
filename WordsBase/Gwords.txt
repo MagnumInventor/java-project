@@ -101,6 +101,33 @@ schnell
 heiß
 kalt
 -
+MENSCH
+-
 schön
 hässlich
 -
+krank
+gesund
+hübsch
+froh
+-
+groß
+kurz
+    ALLGEMEIN
+schlecht
+gut
+kompliziert
+einfach
+schwer
+leicht
+sehr
+wirklich
+aufregend
+mehr
+zu
+ein bisschen
+ein bisschen
+viel
+groß
+klein
+    VERBEN
