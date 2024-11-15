@@ -185,3 +185,30 @@ seventh
 eighth 
 ninth 
 tenth
+            PREPOSITIONS
+-
+            CONJUCTIONS
+and
+but
+or
+so
+because
+when
+if
+then
+after
+before
+while
+where
+as
+although
+until
+since
+though
+even if
+unless
+
+
+
+
+
