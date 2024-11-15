@@ -185,5 +185,25 @@ siebter
 achter
 neunter
 zehnter
-        PRAPOSITOREN
+            PRAPOSITOREN
+-
+            KONJUNKTIONEN
+und
+aber
+oder
+so
+weil
+wann
+wenn
+dann
+nach
+vor
+während
+wohingegen
+obwohl
+bis
+seit
+obwohl
+selbst wenn
+es sei denn
 -
