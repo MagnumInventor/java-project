@@ -34,7 +34,7 @@ da
 nur
 und
 naturlich
-well
+Weil
 als
 so
 -
@@ -130,3 +130,5 @@ viel
 groß
 klein
             VERBEN
+mogen
+lieden
