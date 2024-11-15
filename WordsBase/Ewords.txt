@@ -172,3 +172,16 @@ order
 cost 
 open
 close 
+-
+become
+            NUMERALS
+first 
+second 
+third 
+fourth 
+fifth 
+sixth 
+seventh 
+eighth 
+ninth 
+tenth

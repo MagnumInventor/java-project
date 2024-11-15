@@ -172,3 +172,16 @@ bestellen
 kosten
 öffnen
 schließen
+-
+worden
+            ZIFFERN
+erster
+zweiter
+dritter
+vierter
+fünfter
+sechster
+siebter
+achter
+neunter
+zehnter
