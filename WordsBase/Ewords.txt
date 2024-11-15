@@ -163,3 +163,12 @@ check
 wait
 arrive
 belong
+stay
+visit
+drive
+ask
+answear
+order
+cost 
+open
+close 
