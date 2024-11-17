@@ -224,7 +224,52 @@ Let's
 maybe
 about-something
 -
-        TIME
+         TIME
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+-
+secound
+minute
+hour
+day 
+week
+month
+year
+decade
+sentury
+-
+day
+morning
+noon
+afternoon
+evening
+midnight
+night
+-
+on-monday 
+between
+about-8a.m.
+during
+until 
+from-monday
+since-monday
+at-6a.m.
+always
+soon
+late
+now
+recently
+when 
+long-time
+ago 
+half
+-
+
 
 
 
