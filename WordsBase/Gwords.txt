@@ -224,3 +224,46 @@ vielleicht
 über-etwas
 -
             ZEIT         
+Montag
+Dienstag
+Mittwoch
+Donnerstag
+Freitag
+Samstag
+Sonntag
+-
+Sekunde
+Minute
+Stunde
+Tag
+Woche
+Monat
+Jahr
+Jahrzehnt
+Jahrhundert
+-
+Tag
+Morgen
+Mittag
+Nachmittag
+Abend
+Mitternacht
+Nacht
+-
+am-Montag
+zwischen
+etwa-8 Uhr
+während
+bis
+ab-Montag
+seit-Montag
+um-6 Uhr
+immer
+bald
+spät
+jetzt
+vor kurzem
+wann
+vor langer Zeit
+halb
+-
