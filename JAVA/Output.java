@@ -15,7 +15,7 @@ public class Output {
 
         // Перевіряємо, чи файли зчиталися коректно і мають однакову кількість слів
         if (GerWordsList.isEmpty() || EngWordsList.isEmpty() || GerWordsList.size() != EngWordsList.size()) {
-            System.out.println("Перевірка файлів не пройдена.");
+            System.out.println("File verification failed");
             return;
         }
 
@@ -23,7 +23,7 @@ public class Output {
         Random random = new Random();
         Integer lastWordIndex = null;
 
-        System.out.println("Натисніть Enter, щоб вивести випадкове слово...");
+        System.out.println("Press Enter, to get random german word");
 
         while (true) {
             scanner.nextLine(); // Чекаємо, поки користувач натисне Enter
@@ -34,11 +34,11 @@ public class Output {
                 String gerWord = GerWordsList.get(lastWordIndex);
 
                 // Виводимо німецьке слово
-                System.out.println("Німецьке слово: " + gerWord);
+                System.out.println("German word: " + gerWord);
             } else {
                 // Виводимо переклад англійською для попереднього слова
                 String engWord = EngWordsList.get(lastWordIndex);
-                System.out.println("Переклад: " + engWord);
+                System.out.println("Translate: " + engWord);
 
                 // Після виведення перекладу, видаляємо використані слова
                 GerWordsList.remove((int) lastWordIndex);
@@ -46,7 +46,7 @@ public class Output {
 
                 // Якщо всі слова вичерпано, завершуємо програму
                 if (GerWordsList.isEmpty()) {
-                    System.out.println("Усі слова виведені!");
+                    System.out.println("All words are inferred!");
                     break;
                 }
 
@@ -57,25 +57,26 @@ public class Output {
 
         scanner.close();
     }
-
-    // Метод для читання слів із файлу
-    public static List<String> readWordsFromFile(String fileName) {
-        List<String> words = new ArrayList<>();
-        try {
-            File file = new File(fileName);
-            Scanner fileScanner = new Scanner(file);
-
-            // Читаємо файл пострічно і додаємо слова до списку
-            while (fileScanner.hasNextLine()) {
-                String word = fileScanner.nextLine().trim();
-                if (!word.isEmpty()) {
-                    words.add(word);
-                }
-            }
-            fileScanner.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("Файл не знайдено: " + fileName);
-        }
-        return words;
-    }
-}
+/*
+ * // Метод для читання слів із файлу
+ * public static List<String> readWordsFromFile(String fileName) {
+ * List<String> words = new ArrayList<>();
+ * try {
+ * File file = new File(fileName);
+ * Scanner fileScanner = new Scanner(file);
+ * 
+ * // Читаємо файл пострічно і додаємо слова до списку
+ * while (fileScanner.hasNextLine()) {
+ * String word = fileScanner.nextLine().trim();
+ * if (!word.isEmpty()) {
+ * words.add(word);
+ * }
+ * }
+ * fileScanner.close();
+ * } catch (FileNotFoundException e) {
+ * System.out.println("File not find: " + fileName);
+ * }
+ * return words;
+ * }
+ * }
+ */
