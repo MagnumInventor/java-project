@@ -37,9 +37,19 @@ public class Output {
                 // Виводимо німецьке слово
                 System.out.println("German word: " + gerWord);
             } else {
-                // Виводимо переклад англійською для попереднього слова
-                String engWord = EngWordsList.get(lastWordIndex);
-                System.out.println("Translate: " + engWord);
+                // Виводимо англійський переклад для перевірки
+                System.out.print("Enter the translation for the previous word: ");
+                String userAnswer = scanner.nextLine().trim();
+
+                // Отримуємо правильний переклад
+                String correctAnswer = EngWordsList.get(lastWordIndex);
+
+                // Перевіряємо правильність відповіді
+                if (userAnswer.equalsIgnoreCase(correctAnswer)) {
+                    System.out.println("Correct! ✅");
+                } else {
+                    System.out.println("Wrong! ❌ The correct answer is: " + correctAnswer);
+                }
 
                 // Після виведення перекладу, видаляємо використані слова
                 GerWordsList.remove((int) lastWordIndex);
