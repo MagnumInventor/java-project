@@ -40,7 +40,7 @@ public class Output {
                 // Виводимо англійський переклад для перевірки
                 System.out.print("Enter the translation for the previous word: ");
                 String userAnswer = scanner.nextLine().trim();
-fddfg
+fddfgfdgdgdgfdgd
                 // Отримуємо правильний переклад
                 String correctAnswer = EngWordsList.get(lastWordIndex);
 
