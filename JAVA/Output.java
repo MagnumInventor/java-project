@@ -48,7 +48,7 @@ public class Output {
                 if (userAnswer.equalsIgnoreCase(correctAnswer)) {
                     System.out.println("Correct!");
                 } else {
-                    System.out.println("Wrong! The correct answer is: " + correctAnswer);
+                    System.out.println("Wrong! Correct answer: " + correctAnswer);
                 }
 
                 // Після виведення перекладу, видаляємо використані слова
