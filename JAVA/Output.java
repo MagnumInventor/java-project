@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.io.File;
 import java.io.FileNotFoundException;
 
@@ -59,27 +58,25 @@ public class Output {
 
         scanner.close();
     }
+
+    // Метод для читання слів із файлу
+    public static List<String> readWordsFromFile(String fileName) {
+        List<String> words = new ArrayList<>();
+        try {
+            File file = new File(fileName);
+            Scanner fileScanner = new Scanner(file);
+
+            // Читаємо файл пострічно і додаємо слова до списку
+            while (fileScanner.hasNextLine()) {
+                String word = fileScanner.nextLine().trim();
+                if (!word.isEmpty()) {
+                    words.add(word);
+                }
+            }
+            fileScanner.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("File not find: " + fileName);
+        }
+        return words;
+    }
 }
-/*
- * // Метод для читання слів із файлу
- * public static List<String> readWordsFromFile(String fileName) {
- * List<String> words = new ArrayList<>();
- * try {
- * File file = new File(fileName);
- * Scanner fileScanner = new Scanner(file);
- * 
- * // Читаємо файл пострічно і додаємо слова до списку
- * while (fileScanner.hasNextLine()) {
- * String word = fileScanner.nextLine().trim();
- * if (!word.isEmpty()) {
- * words.add(word);
- * }
- * }
- * fileScanner.close();
- * } catch (FileNotFoundException e) {
- * System.out.println("File not find: " + fileName);
- * }
- * return words;
- * }
- * }
- */
