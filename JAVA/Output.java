@@ -8,8 +8,10 @@ import java.util.Scanner;
 public class Output {
     public static void main(String[] args) {
         // Зчитуємо слова з обох файлів
-        List<String> GerWordsList = readWordsFromFile("Gwords.txt");
-        List<String> EngWordsList = readWordsFromFile("Ewords.txt");
+        List<String> GerWordsList = readWordsFromFile(
+                "D:\\Саша НОВА\\Work\\Programing\\Java\\Portfolio\\Command code\\java-project\\WordsBase\\Gwords.txt");
+        List<String> EngWordsList = readWordsFromFile(
+                "D:\\Саша НОВА\\Work\\Programing\\Java\\Portfolio\\Command code\\java-project\\WordsBase\\Ewords.txt");
 
         // Перевіряємо, чи файли зчиталися коректно і мають однакову кількість слів
         if (GerWordsList.isEmpty() || EngWordsList.isEmpty() || GerWordsList.size() != EngWordsList.size()) {
