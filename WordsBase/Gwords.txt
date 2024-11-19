@@ -199,7 +199,8 @@ dann
 nach
 vor
 während
-wohingegen
+wo
+als
 obwohl
 bis
 seit
@@ -265,5 +266,6 @@ jetzt
 vor kurzem
 wann
 vor langer Zeit
+vor
 halb
 -
