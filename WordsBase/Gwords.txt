@@ -273,3 +273,21 @@ vor langer Zeit
 vor
 halb
 -
+        BERUFE
+    Beruf
+Arzt
+Fotograf
+Entwickler
+Programmierer
+Kellnerin
+Künstler
+Schauspieler
+Rechtsanwalt
+Pilot
+Musiker
+    Aussage
+Student
+Urlaub
+Wochenende
+Gehalt
+Steuer
