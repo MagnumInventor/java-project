@@ -67,7 +67,9 @@ university
 police-department
 pharmacy
 shop
-DIRECTION
+location
+goverment
+    DIRECTION
 in-front-of
 behind
 on-the-left
@@ -172,6 +174,8 @@ order
 cost 
 open
 close 
+to-pass
+to-shake
 -
 become
             NUMERALS
@@ -269,7 +273,24 @@ long-time
 ago 
 half
 -
-
+        OCCUPATIONS
+    Profession
+doctor
+photograph
+developer
+programer
+waitress
+artist
+actor
+lawyer
+pilot
+musician
+    Statement
+student
+vacation
+weekend
+salary
+tax
 
 
 
