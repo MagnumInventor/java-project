@@ -69,6 +69,7 @@ pharmacy
 shop
 location
 goverment
+childhood
     DIRECTION
 in-front-of
 behind
@@ -80,6 +81,9 @@ up
 up-side-down
 near
 far-away
+error
+suggestion
+rule
             ADJECTIVE
     OPPOSITE
 left
@@ -115,7 +119,15 @@ glad
 -
 tall
 short
+-
+interesting
+annoying
+boring
+shy
+communative
+-
     GENERAL
+actually
 bad
 good
 complicated
@@ -135,6 +147,9 @@ small
 like 
 love
 can
+could
+woudl
+should
 run
 struggle
 to-pass

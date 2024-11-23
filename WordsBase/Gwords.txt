@@ -69,6 +69,7 @@ Apotheke
 Geschaft
 Lage
 staatlich
+Kindheit
     RICHTUNG
 Vorne-von-hinten
 Hinter
@@ -80,6 +81,9 @@ hoch
 verkehrt herum
 nahe
 weit-weg
+Feglen
+Vorschlag
+gibt
             ADJEKTIV
     GEGENTAIL
 links
@@ -115,7 +119,15 @@ froh
 -
 groß
 kurz
+-
+interessant
+nervig
+langweilig
+schüchtern
+kommunikativ
+-
     ALLGEMEIN
+tatsachlich
 schlecht
 gut
 kompliziert
@@ -135,6 +147,9 @@ klein
 mögen
 lieben
 können
+könnte
+würde
+sollte
 laufen
 ringen
 vergehen
