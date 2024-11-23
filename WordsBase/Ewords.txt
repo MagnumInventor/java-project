@@ -126,6 +126,9 @@ boring
 shy
 communative
 -
+    BAD-THINGS
+
+-
     GENERAL
 actually
 bad
@@ -317,7 +320,24 @@ vacation
 weekend
 salary
 tax
-
+-
+                        CENSORED-THINGS 
+smoke 
+drunk 
+narcotics 
+criminal 
+crimes
+to-beat
+to-kill
+to-rape
+to-shot
+death
+gun
+knife
+condoms
+dick
+vagina
+ass
 
 
 
