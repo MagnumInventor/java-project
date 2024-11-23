@@ -135,6 +135,15 @@ small
 like 
 love
 can
+run
+struggle
+to-pass
+to-shake
+to-forget 
+to-remind
+to-forgive
+to-revise
+to-repeat
 want
 have
 give
@@ -163,6 +172,8 @@ reach
 try
 check
 wait
+to-begin
+to-stop
 arrive
 belong
 stay

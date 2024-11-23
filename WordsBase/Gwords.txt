@@ -135,6 +135,15 @@ klein
 mögen
 lieben
 können
+laufen
+ringen
+vergehen
+schutteln
+vergessen
+erinnern
+vergeben
+überarbeiten
+wiederholen
 wollen
 haben
 geben
@@ -163,6 +172,8 @@ erreichen
 ausprobieren
 prüfen
 warten
+anfangen
+anhalten
 ankommen
 dazugehören
 bleiben
