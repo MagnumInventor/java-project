@@ -41,6 +41,7 @@ so
         SUBSTANTIV
     PEOPLE
 Frau
+Madchen
 Man
 Junge
 Oma
@@ -84,6 +85,11 @@ weit-weg
 Feglen
 Vorschlag
 gibt
+    ERKLÄRUNGEN
+Hilfe
+Reichtum
+Armut
+Armutsrecht
             ADJEKTIV
     GEGENTAIL
 links
@@ -335,3 +341,4 @@ Kondome
 Schwanz
 Vagina
 Arsch
+streichelt

@@ -41,6 +41,7 @@ so
         NOUN
     PEOPLE
 women
+girl
 men
 boy
 grandpa
@@ -84,6 +85,12 @@ far-away
 error
 suggestion
 rule
+    STATEMENTS
+help
+richness
+poority
+poverty
+law 
             ADJECTIVE
     OPPOSITE
 left
@@ -338,6 +345,7 @@ condoms
 dick
 vagina
 ass
+caresses
 
 
 
