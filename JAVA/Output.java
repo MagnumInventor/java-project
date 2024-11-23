@@ -13,9 +13,12 @@ public class Output {
                 "D:\\Саша НОВА\\Work\\Programing\\Java\\Portfolio\\Command code\\java-project\\WordsBase\\Gwords.txt");
         List<String> EngWordsList = readWordsFromFile(
                 "D:\\Саша НОВА\\Work\\Programing\\Java\\Portfolio\\Command code\\java-project\\WordsBase\\Ewords.txt");
+        List<String> PolWordsList = readWordsFromFile(
+                "D:\\Саша НОВА\\Work\\Programing\\Java\\Portfolio\\Command code\\java-project\\WordsBase\\Pwords.txt");
 
         // Перевіряємо, чи файли зчиталися коректно і мають однакову кількість слів
-        if (GerWordsList.isEmpty() || EngWordsList.isEmpty() || GerWordsList.size() != EngWordsList.size()) {
+        if (GerWordsList.isEmpty() || EngWordsList.isEmpty() || PolWordsList.isEmpty()
+                || GerWordsList.size() != EngWordsList.size()) {
             System.out.println("File verification failed");
             return;
         }
@@ -33,10 +36,12 @@ public class Output {
                 // Вибираємо випадковий індекс зі списку для німецького слова
                 lastWordIndex = random.nextInt(GerWordsList.size());
                 String gerWord = GerWordsList.get(lastWordIndex);
+                String polishHint = PolWordsList.get(lastWordIndex);
 
                 // Виводимо німецьке слово
                 System.out.println("German word: " + gerWord);
-            } else {
+                // Виводимо польське слово:
+                System.out.println("Polish hint:" + polishHint);
                 // Виводимо англійський переклад для перевірки
                 System.out.print("Enter the translation for the previous word: ");
                 String userAnswer = scanner.nextLine().trim();
