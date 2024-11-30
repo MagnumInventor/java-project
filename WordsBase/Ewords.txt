@@ -99,6 +99,7 @@ truth
 lie
 thirst
 hunger
+offer
             ADJECTIVE
     OPPOSITE
 left
