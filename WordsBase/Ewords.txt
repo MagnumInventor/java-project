@@ -257,7 +257,26 @@ eighth
 ninth 
 tenth
             PREPOSITIONS
--
+with
+out
+at
+after
+since
+to
+from
+through
+for
+against
+without
+around
+on
+behind
+in
+next to
+between
+under
+over
+before
             CONJUCTIONS
 and
 but
