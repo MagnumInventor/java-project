@@ -39,6 +39,13 @@ than
 so
 -
         NOUN
+    TRANSPORT
+car 
+train
+seat 
+bicylce
+departure
+delay
     PEOPLE
 women
 girl
@@ -123,15 +130,13 @@ fast
 hot
 cold 
 -
-    TRANSPORT
-car 
-train
-seat 
-bicylce
-departure
-delay
-
+full
+empty
+-
+whole 
+ready 
     HUMAN
+tired
 -
 beautiful
 ugly

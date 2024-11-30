@@ -39,6 +39,13 @@ als
 so
 -
         SUBSTANTIV
+    TRANSPORT
+Auto
+Zug
+Sitzplatz
+Fahrrad
+Abfahrt
+Verspätung
     PEOPLE
 Frau
 Madchen
@@ -123,15 +130,13 @@ schnell
 heiß
 kalt
 -
-        TRANSPORT
-Auto
-Zug
-Sitzplatz
-Fahrrad
-Abfahrt
-Verspätung
-
+voll
+leer
+-
+ganz
+bereit
         MENSCH
+müde
 -
 schön
 hässlich
