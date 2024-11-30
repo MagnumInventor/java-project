@@ -180,6 +180,11 @@ sea
 ocean
 forest
             VERBS
+drive
+run
+pay
+lie down
+Stand
 like 
 love
 can

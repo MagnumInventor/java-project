@@ -180,6 +180,11 @@ Meer
 Ozean
 Walder
             VERBEN
+fahren
+laufen
+zahlen
+hinlegen
+Stehen
 mögen
 lieben
 können
