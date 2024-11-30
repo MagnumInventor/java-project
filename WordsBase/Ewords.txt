@@ -90,7 +90,15 @@ help
 richness
 poority
 poverty
-law 
+law
+way 
+amount
+exactly
+are
+truth
+lie
+thirst
+hunger
             ADJECTIVE
     OPPOSITE
 left
@@ -133,9 +141,6 @@ boring
 shy
 communative
 -
-    BAD-THINGS
-
--
     GENERAL
 actually
 bad
@@ -153,6 +158,13 @@ a-bit
 a-lot
 big
 small
+    NATURE
+river
+swamp
+lake
+sea 
+ocean
+forest
             VERBS
 like 
 love

@@ -90,6 +90,15 @@ Hilfe
 Reichtum
 Armut
 Armutsrecht
+gibt
+wag
+Mange
+Genau
+sind
+Wahrheit
+Luge
+Durst
+Hunger
             ADJEKTIV
     GEGENTAIL
 links
@@ -149,6 +158,13 @@ ein-bisschen
 viel
 groß
 klein
+    NATUR
+Fluss
+Sumpf
+See 
+Meer 
+Ozean
+Walder
             VERBEN
 mögen
 lieben
