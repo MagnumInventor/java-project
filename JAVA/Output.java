@@ -42,6 +42,7 @@ public class Output {
                 scanner.nextLine();
                 // Виводимо польське слово:
                 System.out.println("Polish hint: " + polishHint);
+                scanner.nextLine();
                 // Виводимо англійський переклад для перевірки
                 System.out.print("Enter the translation for the previous word: ");
                 String userAnswer = scanner.nextLine().trim();
