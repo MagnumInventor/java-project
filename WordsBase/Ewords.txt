@@ -123,6 +123,14 @@ fast
 hot
 cold 
 -
+    TRANSPORT
+car 
+train
+seat 
+bicylce
+departure
+delay
+
     HUMAN
 -
 beautiful
