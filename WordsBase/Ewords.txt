@@ -313,6 +313,9 @@ Here-you-go
 Let's 
 maybe
 about-something
+on-the-other-hand
+no-way 
+absolutely
 -
          TIME
 Monday
@@ -358,6 +361,10 @@ when
 long-time
 ago 
 half
+early
+late 
+never 
+right-now 
 -
         OCCUPATIONS
     Profession

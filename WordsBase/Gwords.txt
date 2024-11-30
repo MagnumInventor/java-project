@@ -277,7 +277,6 @@ neben
 zwichen
 unter 
 uber
-vor
             KONJUNKTIONEN
 und
 aber
@@ -314,6 +313,9 @@ bitte
 Lass uns
 vielleicht
 über-etwas
+andererseits
+auf keinen Fall
+absolut
 -
             ZEIT         
 Montag
@@ -359,6 +361,10 @@ wann
 vor langer Zeit
 vor
 halb
+früh
+spät
+nie
+jetzt
 -
         BERUFE
     Beruf
