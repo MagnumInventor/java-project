@@ -1,0 +1,6 @@
+    
+    
+    SCRIPT (cntr + x):
+    
+    
+             || GerWordsList.size() != EngWordsList.size()

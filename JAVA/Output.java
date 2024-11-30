@@ -17,8 +17,7 @@ public class Output {
                 "D:\\Саша НОВА\\Work\\Programing\\Java\\Portfolio\\Command code\\java-project\\WordsBase\\Pwords.txt");
 
         // Перевіряємо, чи файли зчиталися коректно і мають однакову кількість слів
-        if (GerWordsList.isEmpty() || EngWordsList.isEmpty() || PolWordsList.isEmpty()
-                || GerWordsList.size() != EngWordsList.size()) {
+        if (GerWordsList.isEmpty() || EngWordsList.isEmpty() || PolWordsList.isEmpty()) {
             System.out.println("File verification failed");
             return;
         }

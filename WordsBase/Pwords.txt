@@ -1,5 +1,5 @@
-OGÓLNE
-PYTANIA
+            OGÓLNE
+        PYTANIA
 Kto
 Jak
 Co
@@ -37,37 +37,36 @@ ponieważ
 niż
 więc
 -
-
-RZECZOWNIK
-TRANSPORT
+        RZECZOWNIK
+    TRANSPORT
 samochód
 pociąg
 siedzisko
 rower
 odjazd
 opóźnienie
-LUDZIE
+        LUDZIE
 kobiety
 dziewczyna
 mężczyźni
 chłopiec
 dziadek
 babcia
-UBRANIA
-JEDZENIE
+        UBRANIA
+    JEDZENIE
 Lunch
 warzywa
 kurczak
 sossage
 ser
-POGODA
+        POGODA
 słonecznie
 deszczowo
 śnieg
 pochmurno
 mglisto
 wietrznie
-PLASES
+    PLASES
 dom
 praca
 szkoła
@@ -78,7 +77,7 @@ sklep
 lokalizacja
 rząd
 dzieciństwo
-KIERUNEK
+        KIERUNEK
 przed
 za
 po lewej
@@ -92,7 +91,7 @@ daleko
 błąd
 sugestia
 zasada
-OŚWIADCZENIA
+    OŚWIADCZENIA
 pomoc
 bogactwo
 bieda
