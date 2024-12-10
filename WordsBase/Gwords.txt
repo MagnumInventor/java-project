@@ -77,6 +77,7 @@ Apotheke
 Geschaft
 Lage
 staatlich
+stadteil
 Kindheit
     RICHTUNG
 Vorne-von-hinten
@@ -102,8 +103,12 @@ wag
 Mange
 Genau
 sind
+-
+Stimmt
+Falsch
 Wahrheit
 Luge
+-
 Durst
 Hunger
 Angebot
@@ -419,3 +424,4 @@ von
 viel
 zumindest
 wenig
+anderen
